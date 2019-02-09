@@ -1,0 +1,70 @@
+body {
+	font-size: 12px;
+	color: #E8F8F5;
+	background-color: #154360;
+	font-family: 'Lora', serif;
+}
+/** Header **/
+
+#header-nav {
+	background-color: #6C3483;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand {
+	padding-top: 15px;
+	padding-left: 10px;
+}
+.navbar-brand h1 {
+	font-family: 'Merriweather,' serif;
+	color: #AF7AC5;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#nav-list {
+	margin-top: 0;
+	text-align: center;
+}
+#nav-list a {
+	color: #45B39D;
+	text-align: center;
+	background-color: #6C3483
+}
+#nav-list a:hover {
+	background-color: #FFFFFF;
+}
+#nav-list a span {
+	font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	background-color: #45B39D;
+	border: 1px solid #1C2833;
+}
+#maincontent {
+	background-color: #45B39D;
+	padding: 10px;
+	margin: 10px;
+	height: 1000px;
+}
+h2 {
+	color: #E8DAEF
+}
+#maincontent h3 {
+	margin: 5px;
+	color: #1B2631;
+}
+#maincontent p{
+	color: #1C2833;
+}
